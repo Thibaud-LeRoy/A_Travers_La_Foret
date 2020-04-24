@@ -1,0 +1,95 @@
+#zoneJouable{
+
+    border-style: solid;
+    border-width: 2px;
+    width: 800px;
+    height: 600px;
+    
+    background-color:gray;
+    background-image: url(../assets/_Map/_Decoupage_Assets/zone-injouable.png);
+    position: absolute;
+    clear: both;
+}
+
+#arbre{
+
+    border-style: solid;
+    border-width:2px;
+    border-color: lightcoral;
+    width: 200px;
+    height: 190px;
+    position:absolute;
+    float: right;   
+    clear: both;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.foret1, .foret2 , .foret3 , .ponton , .chemin {
+    border-style: solid;
+    border-width: 2px;
+    border-color: lightcoral;
+}
+.chemin{
+   
+    width: 500px;
+    height: 62px;
+    position: absolute;
+    float: right;
+    margin-top: -74%; 
+    clear: both;  
+}
+
+.foret1{
+    border-style: solid;
+    border-width: 2px;
+    border-color: lime;
+    width: 270px;
+    height: 390px;
+    position: absolute;
+    float: right;
+    margin-top: -74%; 
+    margin-left: 64%;
+    clear: both;  
+
+}
+
+.foret2{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    width: 176px;
+    height: 280px;
+    position: absolute;
+    float: right;
+    margin-top: -59.7%; 
+    margin-left: 38%;
+    clear: both;  
+}
+
+.ponton{
+    border-style: solid;
+    border-width: 2px;
+    border-color:red;
+    width: 70px;
+    height: 25px;
+    position: absolute;
+    float: right;
+    margin-top: -43.5%; 
+    margin-left: 29.4%;
+    clear: both; 
+}
+
+
+.foret3{
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    width: 220px;
+    height: 280px;
+    position: absolute;
+    float: right;
+    margin-top: -59.7%; 
+    margin-left: 2%;
+    clear: both;  
+}
+
