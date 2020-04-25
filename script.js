@@ -34,7 +34,7 @@ function preload ()  {
 
     //Monde
     this.load.image('monde0',  'assets/monde0.png')
-    this.load.image('monde1',  'assets/monde1.png')
+    this.load.image('contour',  'assets/monde1.png')
 
     //Ennemis
     //Items
@@ -43,15 +43,20 @@ function create  ()  {
     world = this.add.image(400, 300,'monde0')
     //Ajout de la carte
     this.add.image(400, 300,'monde0')//zone jouable
-    this.add.image(400, 300,'monde1')//zone de détourage
+   // this.add.image(400, 300,'monde1')//zone de détourage
     
     //Ajout du personnage
     billy = this.physics.add.image(500, 200, 'billyLD')
     billy.body.collideWorldBounds = true;
     cursors =this.input.keyboard.createCursorKeys()
+
+    this.add.image(400,300,'contour');
+    contour = this.physics.add.staticGroup();
+
     
 }
 function update  ()  {
+
     billy.setVelocity(0)
     if (cursors.up.isDown){
         console.log('touche haut appuyé')
